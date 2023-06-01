@@ -1,0 +1,101 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: url(background.jpg) center center fixed;
+  background-size: cover;
+}
+
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 20px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  animation: fade 1s ease;
+  border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-weight: bold;
+}
+
+.emi-form {
+  margin-top: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="number"] {
+  width: 100%;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-weight: bold;
+}
+
+button {
+  display: block;
+  width: 100px;
+  padding: 10px;
+  margin-top: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+#emi-result {
+  margin-top: 20px;
+  font-weight: bold;
+  text-align: center;
+  animation: fade 1s linear;
+}
+button {
+  display: block;
+  width: 100px;
+  margin: 10px auto; /* Added margin auto to center the button horizontally */
+  padding: 10px;
+  background-color: #4CAF50;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+}
+.container {
+  max-width: 600px;
+  margin: 50px auto;
+  background-color: rgba(255, 255, 255, 0.9);
+  padding: 60px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  animation: fade 1s ease;
+  border-radius: 20px;
+  backdrop-filter: blur(10px); /* Apply a blur effect to the background */
+  background: rgba(255, 255, 255, 0.5); /* Set the background color with transparency */
+}
+.left-image{
+    top: 150px;
+    height: 500px;
+    width: 400px;
+    position: absolute;/* Offsets the image outside the container initially */
+    transition: left 0.5s ease-in-out;
+}
+
+
+
+
+
+
+
+
+
